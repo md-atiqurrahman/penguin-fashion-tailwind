@@ -6,9 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=k, initial-scale=1.0">
     <title>Penguin-fashion</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon/logo.png" type="image/x-icon">
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        ycolor: '#FABE4C',
+                        bcolor: '#363958',
+                        pcolor: '#3E3E3E',
+                        btncolor: '#A4BC46',
+                        homebgc: '#FFFBF0',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
+    <!-- header start -->
+    <header>
+        <section class="bg-homebgc">
+            <div class="flex items-center justify-around pb-32">
+                <div>
+                    <span class="text-6xl uppercase font-semibold text-ycolor mb-3">Be the Penguins</span><br>
+                    <div class="pt-3">
+                        <span class="text-6xl uppercase font-semibold text-bcolor mb-3">of Winter</span>
+                    </div>
+                    <div class="pt-3 pb-3">
+                        <p class="text-sm text-pcolor">Lorem Ipsum is simply dummy text of the printing <br>
+                            and typesetting industry.</p>
+                    </div>
+                    <button class="text-white bg-btncolor py-3 px-8 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- main start -->
+    <main>
+
+    </main>
 
 </body>
 
